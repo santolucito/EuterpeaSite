@@ -38,14 +38,14 @@ lhsToHTML i =
   let
     xs = T.lines i ::[T.Text]
     v1 = "\n<iframe width=\"420\" height=\"315\" src=\""
-    v2 = "\"frameborder=\"0\" allowfullscreen></iframe>"
+    v2 = "\" frameborder=\"0\" allowfullscreen></iframe>"
     vid = T.concat [v1,
                     T.stripEnd $ head xs,
                     v2]
     toCode l =
       if T.head l == '>'
       then T.concat ["<pre>",T.stripEnd $ T.tail l,"</pre>\n"]
-      else id l
+      else T.concat ["<p>",T.stripEnd $ l,"</p>\n"]
     o = T.concat $ map toCode $ ([vid] ++ tail xs)
   in
     o
