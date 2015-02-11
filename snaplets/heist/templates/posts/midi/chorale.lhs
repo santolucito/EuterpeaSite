@@ -7,7 +7,7 @@ This program demonstrates the basics of composition in Euterpea
 
 > main :: IO ()
 > main = do
->  play chorale
+>   play chorale
 
 Here we construct a meldoy using a few of Euterpea's basic music functions
 

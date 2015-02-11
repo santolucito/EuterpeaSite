@@ -12,7 +12,7 @@ main = do
 
 isHaskell :: Shelly.FilePath -> Sh Bool
 isHaskell f =
-  return (".lhs" == (reverse . take 4 . reverse . T.unpack . toTextIgnore) f)
+  return (".lhs" == (T.reverse . T.take 4 . T.reverse . toTextIgnore) f)
 
 preBuild  = do
   dir   <- pwd
@@ -24,7 +24,7 @@ preBuild  = do
 convertFileToHtml :: Shelly.FilePath -> Sh ()
 convertFileToHtml file =
   let
-    f =  toTextIgnore file
+    f =  (T.reverse . T.drop 4 . T.reverse . toTextIgnore) file
     nf = fromText (T.concat [f,".tpl"]) :: Shelly.FilePath
   in do
     writefile nf "<apply template='post'>"
@@ -49,8 +49,9 @@ lhsToHTML i =
       else T.concat ["<p>",T.stripEnd $ l,"</p>\n"]
     o = T.concat $ map toCode $ ([vid] ++ tail xs)
     o' = T.replace "</pre>\n<pre>" "\n" o
+    o'' = T.replace "</p>\n<p>" "" o'
   in
-    o'
+    o''
 
 
 
