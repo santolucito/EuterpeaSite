@@ -27,9 +27,29 @@ convertFileToHtml file =
     f =  toTextIgnore file
     nf = fromText (T.concat [f,".tpl"]) :: Shelly.FilePath
   in do
-    writefile nf "<apply template='post'><bind tag='post'>"
-    readfile file >>= appendfile nf
-    appendfile nf "</bind></apply>"
+    writefile nf "<apply template='base'>"
+    contents <- readfile file
+    let newC = lhsToHTML contents
+    appendfile nf newC
+    appendfile nf "</apply>"
+
+lhsToHTML :: T.Text -> T.Text
+lhsToHTML i =
+  let
+    xs = T.lines i ::[T.Text]
+    v1 = "\n<iframe width=\"420\" height=\"315\" src=\""
+    v2 = "\"frameborder=\"0\" allowfullscreen></iframe>"
+    vid = T.concat [v1,
+                    T.stripEnd $ head xs,
+                    v2]
+    toCode l =
+      if T.head l == '>'
+      then T.concat ["<pre>",T.stripEnd $ T.tail l,"</pre>\n"]
+      else id l
+    o = T.concat $ map toCode $ ([vid] ++ tail xs)
+  in
+    o
+
 
 
 {-  forM files convertFileToHtml
