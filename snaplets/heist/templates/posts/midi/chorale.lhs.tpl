@@ -1,5 +1,5 @@
 <apply template='base'><p>
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=P4j3nCcMJfM" frameborder="0" allowfullscreen></iframe></p>
+<iframe width="420" height="315" src="//www.youtube.com/watch?v=P4j3nCcMJfM" frameborder="0" allowfullscreen></iframe></p>
 <p></p>
 <p>This program demonstrates the basics of composition in Euterpea</p>
 <p></p>
