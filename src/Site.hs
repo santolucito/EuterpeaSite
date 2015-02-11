@@ -136,7 +136,7 @@ handlePost = do
   (Just c) <- getParam "cat"
   (Just k) <- getParam "key"
   --cRender $ B.append (B.intercalate "/" ["posts", c, k]) ".md"
-  cRender $ (B.intercalate "/" ["posts", c, "1"])
+  cRender $ (B.intercalate "/" ["posts", c,k])
 
 ------------------------------------------------------------------------------
 -- | The application's routes.
@@ -159,7 +159,7 @@ app = makeSnaplet "app" "A snaplet example application." Nothing $ do
     h <- nestSnaplet "" heist $ heistInit "templates"
     addRoutes routes
     addConfig h (mempty & scCompiledSplices .~  allStockSplices)
-    
+
     s <- nestSnaplet "sess" sess $
            initCookieSessionManager "site_key.txt" "sess" (Just 3600)
 
@@ -173,4 +173,3 @@ app = makeSnaplet "app" "A snaplet example application." Nothing $ do
 
     addAuthSplices h auth
     return $ App h s d a
-
