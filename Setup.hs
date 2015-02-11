@@ -27,7 +27,7 @@ convertFileToHtml file =
     f =  toTextIgnore file
     nf = fromText (T.concat [f,".tpl"]) :: Shelly.FilePath
   in do
-    writefile nf "<apply template='base'>"
+    writefile nf "<apply template='post'>"
     contents <- readfile file
     let newC = lhsToHTML contents
     appendfile nf newC
