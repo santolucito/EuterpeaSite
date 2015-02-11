@@ -1,9 +1,7 @@
-littlejohn
+EuterpeaSite
 ==========
 
-A stock simulator
-
-eventually could be more...
+An alternative site for Euterpea geared more towards the computer music community
 
 to start
-sudo initctl restart littlejohn
+sudo initctl start site
