@@ -1,4 +1,4 @@
-<apply template='post'><bind tag='post'>https://www.youtube.com/watch?v=P4j3nCcMJfM
+<apply template='base'>https://www.youtube.com/watch?v=P4j3nCcMJfM
 
 This program demonstrates the basics of composition in Euterpea
 
@@ -27,4 +27,4 @@ each with a two measure delay
 >   Modify (Instrument Trombone) (delayM bn melody) :=:
 >   Modify (Instrument Trumpet) (delayM (2*bn) melody) :=:
 >   Modify (Instrument TenorSax) (delayM (3*bn) melody)
-</bind></apply>
+</apply>
