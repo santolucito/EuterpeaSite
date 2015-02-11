@@ -36,19 +36,21 @@ convertFileToHtml file =
 lhsToHTML :: T.Text -> T.Text
 lhsToHTML i =
   let
-    xs = T.lines i ::[T.Text]
+    xs = filter (\x->x /="") (T.lines i)
     v1 = "\n<iframe width=\"420\" height=\"315\" src=\""
     v2 = "\" frameborder=\"0\" allowfullscreen></iframe>"
+    vUrl = T.replace "watch?v=" "embed/" (T.stripEnd $ head xs)
     vid = T.concat [v1,
-                    T.stripEnd $ head xs,
+                    vUrl,
                     v2]
     toCode l =
       if T.head l == '>'
       then T.concat ["<pre>",T.stripEnd $ T.tail l,"</pre>\n"]
       else T.concat ["<p>",T.stripEnd $ l,"</p>\n"]
     o = T.concat $ map toCode $ ([vid] ++ tail xs)
+    o' = T.replace "</pre>\n<pre>" "\n" o
   in
-    o
+    o'
 
 
 

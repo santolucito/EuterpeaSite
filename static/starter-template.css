@@ -5,4 +5,7 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-
+pre{
+  text-align: left;
+  overflow-wrap: normal
+}
