@@ -2,6 +2,7 @@
 {-# LANGUAGE ExtendedDefaultRules #-}
 {-# OPTIONS_GHC -fno-warn-type-defaults #-}
 import Shelly
+import Control.Monad
 import qualified Data.Text as T
 default (T.Text)
 
@@ -15,10 +16,20 @@ isHaskell f =
 
 preBuild  = do
   dir   <- pwd
-  let x = (dir </> "snaplets" </> "heist" </> "templates" </> "posts")
-  files <- findWhen isHaskell x
+  let p = (dir </> "snaplets" </> "heist" </> "templates" </> "posts")
+  files <- findWhen isHaskell p
+  forM files convertFileToHtml
   return files
 
+convertFileToHtml :: Shelly.FilePath -> Sh ()
+convertFileToHtml file =
+  let
+    f =  toTextIgnore file
+    nf = fromText (T.concat [f,".tpl"]) :: Shelly.FilePath
+  in do
+    writefile nf "<apply template='post'><bind tag='post'>"
+    readfile file >>= appendfile nf
+    appendfile nf "</bind></apply>"
 
 
 {-  forM files convertFileToHtml
