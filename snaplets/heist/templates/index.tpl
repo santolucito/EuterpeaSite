@@ -1,3 +1,3 @@
 <apply template='base'>
-<a href="posts/midi/chorale.lhs">posts/midi/chorale.lhs</a>
+<a href="posts/midi/chorale">midi/chorale.lhs</a>
 </apply>
