@@ -24,13 +24,13 @@ preBuild  = do
 convertFileToHtml :: Shelly.FilePath -> Sh ()
 convertFileToHtml file =
   let
-    filename =  toTextIgnore file
+    filename =  last $ (T.split (\x -> x=='\\' || x =='/')) $ toTextIgnore file
     fileWoExt =  (T.reverse . T.drop 4 . T.reverse . toTextIgnore) file
     nf = fromText (T.concat [fileWoExt,".tpl"]) :: Shelly.FilePath
-    code = T.concat ["<markdown file=\"",filename,"\"/>"]
+    code = T.concat ["<markdown file=\"",filename,"\"/>\n"]
   in do
-    writefile nf "<apply template='post'>"
-    appendfile nf T.concat ["<h2>",filename,"</h2>"]
+    writefile nf "<apply template='post'>\n"
+    appendfile nf $ T.concat ["<h2>",filename,"</h2>\n"]
     appendfile nf code
     appendfile nf "</apply>"
 
