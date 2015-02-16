@@ -3,6 +3,7 @@
 {-# OPTIONS_GHC -fno-warn-type-defaults #-}
 import Shelly
 import Control.Monad
+import Data.List
 import qualified Data.Text as T
 default (T.Text)
 
@@ -26,8 +27,9 @@ preBuild  = do
 writeIndexTpl :: Shelly.FilePath -> [Shelly.FilePath] -> Sh ()
 writeIndexTpl i files =
   let
+    shorten y = T.concat $ intersperse "/" (drop 8 $ (T.split (\x -> x=='\\' || x =='/')) y)
     linkify x = T.concat ["<a href=\"",x,"\">",x,"</a>\n"]
-    p = T.concat $ map (linkify . toTextIgnore) files
+    p = T.concat $ map (linkify . shorten . toTextIgnore) files
   in do
     writefile i $ T.concat ["<apply template='base'>\n",p,"</apply>"]
 
