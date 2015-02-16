@@ -141,14 +141,12 @@ handlePost = do
 ------------------------------------------------------------------------------
 -- | The application's routes.
 routes :: [(B.ByteString, Handler App App ())]
-routes = [ ("/login",    handleLoginSubmit)
-         , ("/logout",   handleLogout)
-         , ("/new_user", handleNewUser)
-         , ("/stocks",   handleStocks)
-         , ("/about",    cRender "about")
+routes = [ ("/about",      cRender "about")
          , ("/install",    cRender "install")
+         , ("/posts/",     cRender "post")
+         , ("/posts/:cat", cRender "post")
          , ("/posts/:cat/:key", handlePost)
-         , ("",          serveDirectory "static")
+         , ("",            cRender "post")
          ]
 
 

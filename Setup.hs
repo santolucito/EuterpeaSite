@@ -7,22 +7,33 @@ import qualified Data.Text as T
 default (T.Text)
 
 main = do
-  f <-shelly preBuild
+  f <- shelly preBuild
   print f
-
-isHaskell :: Shelly.FilePath -> Sh Bool
-isHaskell f =
-  return (".lhs" == (T.reverse . T.take 4 . T.reverse . toTextIgnore) f)
 
 preBuild  = do
   dir   <- pwd
+  --build all posts from lhs
   let p = (dir </> "snaplets" </> "heist" </> "templates" </> "posts")
   files <- findWhen isHaskell p
-  forM files convertFileToHtml
-  return files
+  forM files convert_lhs_to_tpl
 
-convertFileToHtml :: Shelly.FilePath -> Sh ()
-convertFileToHtml file =
+  --build index page
+  let i = (dir </> "snaplets" </> "heist" </> "templates")
+  indx <- findWhen isIndex i
+  writeIndexTpl (head indx) files
+  return ()
+
+writeIndexTpl :: Shelly.FilePath -> [Shelly.FilePath] -> Sh ()
+writeIndexTpl i files =
+  let
+    linkify x = T.concat ["<a href=\"",x,"\">",x,"</a>\n"]
+    p = T.concat $ map (linkify . toTextIgnore) files
+  in do
+    writefile i $ T.concat ["<apply template='base'>\n",p,"</apply>"]
+
+
+convert_lhs_to_tpl :: Shelly.FilePath -> Sh ()
+convert_lhs_to_tpl file =
   let
     filename =  last $ (T.split (\x -> x=='\\' || x =='/')) $ toTextIgnore file
     fileWoExt =  (T.reverse . T.drop 4 . T.reverse . toTextIgnore) file
@@ -34,6 +45,17 @@ convertFileToHtml file =
     appendfile nf code
     appendfile nf "</apply>"
 
+
+isHaskell :: Shelly.FilePath -> Sh Bool
+isHaskell f =
+  return (".lhs" == (T.reverse . T.take 4 . T.reverse . toTextIgnore) f)
+
+isIndex :: Shelly.FilePath -> Sh Bool
+isIndex f =
+  return ("index.tpl" == (T.reverse . T.take 9 . T.reverse . toTextIgnore) f)
+
+
+{-
 lhsToHTML :: T.Text -> T.Text
 lhsToHTML i =
   let
@@ -53,3 +75,4 @@ lhsToHTML i =
     o'' = T.replace "</p>\n<p>" "" o'
   in
     o''
+-}
