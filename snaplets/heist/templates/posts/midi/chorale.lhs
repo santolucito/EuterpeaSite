@@ -16,8 +16,7 @@ Here we construct a meldoy using a few of Euterpea's basic music functions. We w
 >            [e 4 qn, f 4 qn, g 4 hn],
 >            [g 4 en, a 4 en, g 4 en, f 4 en, e 4 qn, c 4 qn],
 >            [c 4 qn, g 3 qn, c 4 hn]]
->     phrases = map line raw
->     psTwice = map (timesM 2) phrases
+>     phrases = map (timesM 2 . line) raw
 >   in
 >     line psTwice
 

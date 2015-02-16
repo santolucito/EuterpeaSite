@@ -146,7 +146,7 @@ routes = [ ("/login",    handleLoginSubmit)
          , ("/new_user", handleNewUser)
          , ("/stocks",   handleStocks)
          , ("/about",    cRender "about")
-         , ("/instal",    cRender "install")
+         , ("/install",    cRender "install")
          , ("/posts/:cat/:key", handlePost)
          , ("",          serveDirectory "static")
          ]

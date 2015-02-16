@@ -24,13 +24,14 @@ preBuild  = do
 convertFileToHtml :: Shelly.FilePath -> Sh ()
 convertFileToHtml file =
   let
-    f =  (T.reverse . T.drop 4 . T.reverse . toTextIgnore) file
-    nf = fromText (T.concat [f,".tpl"]) :: Shelly.FilePath
+    filename =  toTextIgnore file
+    fileWoExt =  (T.reverse . T.drop 4 . T.reverse . toTextIgnore) file
+    nf = fromText (T.concat [fileWoExt,".tpl"]) :: Shelly.FilePath
+    code = T.concat ["<markdown file=\"",filename,"\"/>"]
   in do
     writefile nf "<apply template='post'>"
-    contents <- readfile file
-    let newC = lhsToHTML contents
-    appendfile nf newC
+    appendfile nf T.concat ["<h2>",filename,"</h2>"]
+    appendfile nf code
     appendfile nf "</apply>"
 
 lhsToHTML :: T.Text -> T.Text
@@ -38,7 +39,7 @@ lhsToHTML i =
   let
     xs = filter (\x->x /="") (T.lines i)
     v1 = "\n<iframe width=\"420\" height=\"315\" src=\""
-    v2 = "\" frameborder=\"0\" allowfullscreen></iframe>"
+    v2 = "\" frameborder=\"0\" allowfullscreen></iframe><br>"
     vUrl = T.replace "watch?v=" "embed/" (T.stripEnd $ head xs)
     vid = T.concat [v1,
                     vUrl,
@@ -52,26 +53,3 @@ lhsToHTML i =
     o'' = T.replace "</p>\n<p>" "" o'
   in
     o''
-
-
-
-{-  forM files convertFileToHtml
-  return (Nothing, [])
-
-search pat dir =
-  F.find always (fileName ~~? pat) dir
-
-convertToHtml =
-  (writeHtmlString
-     def{writerHighlight = True,
-         writerExtensions = githubMarkdownExtensions}) .
-   readMarkdown def
-
-convertFileToHtml file =
-  let newFile = replaceExtension file "tpl"
-      dir = takeDirectory file
-  in do
-    writeFile newFile "<apply template='post'><bind tag='post'>"
-    readFile file >>= appendFile newFile . convertToHtml
-    appendFile newFile "</bind></apply>"
--}
