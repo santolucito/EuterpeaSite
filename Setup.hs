@@ -27,8 +27,9 @@ preBuild  = do
 writeIndexTpl :: Shelly.FilePath -> [Shelly.FilePath] -> Sh ()
 writeIndexTpl i files =
   let
+    fileWoExt =  (T.reverse . T.drop 4 . T.reverse) file
     shorten y = T.concat $ intersperse "/" (drop 8 $ (T.split (\x -> x=='\\' || x =='/')) y)
-    linkify x = T.concat ["<a href=\"",x,"\">",x,"</a>\n"]
+    linkify x = T.concat ["<a href=\"",fileWoExt x,"\">",x,"</a>\n"]
     p = T.concat $ map (linkify . shorten . toTextIgnore) files
   in do
     writefile i $ T.concat ["<apply template='base'>\n",p,"</apply>"]
