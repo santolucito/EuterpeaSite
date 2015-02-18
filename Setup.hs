@@ -28,9 +28,13 @@ writeIndexTpl :: Shelly.FilePath -> [Shelly.FilePath] -> Sh ()
 writeIndexTpl i files =
   let
     fileWoExt f =  (T.reverse . T.drop 4 . T.reverse) f
-    shorten y = T.concat $ intersperse "/" (drop 8 $ (T.split (\x -> x=='\\' || x =='/')) y)
-    linkify x = T.concat ["<a href=\"",fileWoExt x,"\">",T.drop 6 x,"</a>\n"]
-    p = T.concat $ map (linkify . shorten . toTextIgnore) files
+    shorten y =
+      T.concat $ intersperse "/" (drop 8 $ (T.split (\x -> x=='\\' || x =='/')) y)
+    linkify x =
+      T.concat ["<a href=\"",fileWoExt x,"\">",T.drop 6 x,"</a>"]
+    listify x =
+      T.concat $ ["<ul><li>"]++intersperse "</li>\n<li>" x++["</li></ul>"]
+    p = listify $ map (linkify . shorten . toTextIgnore) files
   in do
     writefile i $ T.concat ["<apply template='base'>\n",p,"</apply>"]
 
