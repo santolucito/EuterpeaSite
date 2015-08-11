@@ -1,0 +1,3 @@
+git pull
+cabal install
+sudo initctl restart site

@@ -41,21 +41,21 @@
 
     <div class="col-md-5 col-md-offset-1">
       <img height=200 class="img-circle" src="imgs/donya.jpg">
-      <h3><a href="donyaquick.com">Donya Quick</a>
+      <h3><a href="http://www.donyaquick.com">Donya Quick</a>
         <small>Postdoc</small>
       </h3>
     </div> 
 
     <div class="col-md-5 col-md-offset-1">
       <img height=200 class="img-circle" src="imgs/wc.png">
-      <h3><a href="www.danwc.com">Dan Winograd-Cort</a>
+      <h3><a href="http://www.danwc.com">Dan Winograd-Cort</a>
         <small>6th year PhD</small>
       </h3>
     </div> 
 
     <div class="col-md-5 col-md-offset-1">
       <img height=200 class="img-circle" src="imgs/SantolucitoHeadshot.png">
-      <h3><a href="www.marksantolucito.com">Mark Santolucito</a>
+      <h3><a href="http://www.marksantolucito.com">Mark Santolucito</a>
         <small>2nd year PhD</small>
       </h3>
     </div> 

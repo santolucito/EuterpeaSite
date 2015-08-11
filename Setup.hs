@@ -36,7 +36,7 @@ writeIndexTpl i files =
       T.concat $ ["<ul><li>"]++intersperse "</li>\n<li>" x++["</li></ul>"]
     p = listify $ map (linkify . shorten . toTextIgnore) files
   in do
-    writefile i $ T.concat ["<apply template='base'>\n",p,"</apply>"]
+    writefile i $ T.concat ["<apply template='lander'>\n",p,"</apply>"]
 
 
 convert_lhs_to_tpl :: Shelly.FilePath -> Sh ()

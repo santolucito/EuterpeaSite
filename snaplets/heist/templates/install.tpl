@@ -28,7 +28,11 @@ cabal install Euterpea</pre>
   <div class='row'>
     <div class='col-md-5 col-md-offset-1'>
     <h3>Linux</h3>
-    <p>If you are on Linux you will need a midi synthesizer.<a href='http://timidity.sourceforge.net/'>TiMidity++</a> has worked well on Linux. You may also need a soundfont, for example <a href="http://www.personalcopy.com/home.htm">PersonalCopy</a></p>
+    <p>If you are on Linux you will need a midi synthesizer. You may also need a soundfont, for example <a href="http://www.personalcopy.com/home.htm">PersonalCopy</a></p>
+    <p>Run these commands to get everything you need.</p>
+    <pre>apt-get install libasound2-dev
+apt-get install timidity
+apt-get install vmpk</pre>
     </div>
     
     <div class='col-md-5 col-md-offset-1'>
