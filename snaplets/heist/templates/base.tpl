@@ -45,6 +45,7 @@
           <ul class="nav navbar-nav">
             <li><a href="/">Code</a></li>
             <li><a href="/about">About</a></li>
+            <li><a href="/community">Community</a></li>
             <li><a href="/install">Install</a></li>
           </ul>
         </div><!--/.nav-collapse -->

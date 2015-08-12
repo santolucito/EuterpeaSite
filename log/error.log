@@ -1636,3 +1636,19 @@ A web handler threw an exception. Details:
 System.SendFile.Linux: resource vanished (Broken pipe)
 [11/Aug/2015:11:58:41 -0400] ["173.254.225.161"]: an exception escaped to toplevel:
 recv: resource vanished (Connection reset by peer)
+[11/Aug/2015:15:15:26 -0400] ["173.254.225.161"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[11/Aug/2015:15:27:29 -0400] ["122.100.3.34"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[11/Aug/2015:23:31:59 -0400] ["192.99.178.86"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Aug/2015:01:38:23 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 207.46.13.62:40556
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 207.46.13.62:40556\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\n Connection: Keep-Alive\n Pragma: no-cache\n Host: euterpea.com\n Accept: */*\n From: bingbot(at)microsoft.com\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/mac.png\n    contextpath: /\n    URI: /imgs/mac.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[12/Aug/2015:12:45:33 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[12/Aug/2015:12:50:18 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[12/Aug/2015:13:10:39 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[12/Aug/2015:13:16:55 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
