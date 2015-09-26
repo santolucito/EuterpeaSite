@@ -1652,3 +1652,588 @@ System.SendFile.Linux: resource vanished (Connection reset by peer)
 [12/Aug/2015:12:50:18 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [12/Aug/2015:13:10:39 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [12/Aug/2015:13:16:55 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[12/Aug/2015:20:54:10 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 173.172.107.74:52423
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 173.172.107.74:52423\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[13/Aug/2015:07:04:47 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 178.20.49.81:26049
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 178.20.49.81:26049\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          X-Forwarded-For: unknown\n User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0\n Connection: keep-alive\n Via: 1.0 PROXY, 1.0 havp1.hsoftware.com (squid)\n Host: euterpea.com\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Cache-Control: max-age=2592000\n Cookie: clientID1122600=1439463569287-874\n Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1439463569287-874\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[13/Aug/2015:07:31:37 -0400] ["137.226.113.7"]: an exception escaped to toplevel:
+Char.digitToInt: not a digit ' '
+[13/Aug/2015:07:54:39 -0400] ["94.210.180.220"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Aug/2015:07:54:39 -0400] ["94.210.180.220"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Aug/2015:11:56:31 -0400] ["203.192.191.131"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Aug/2015:22:54:17 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 107.170.99.71:34991
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 107.170.99.71:34991\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n Host: euterpea.com\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: HEAD\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/wc.png\n    contextpath: /\n    URI: /imgs/wc.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+Short write
+[14/Aug/2015:22:54:17 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 107.170.99.71:34991
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 107.170.99.71:34991\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n Host: euterpea.com\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: HEAD\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/wc.png\n    contextpath: /\n    URI: /imgs/wc.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[16/Aug/2015:05:38:00 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 173.174.67.168:35635
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 173.174.67.168:35635\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[16/Aug/2015:05:50:17 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 173.174.67.168:35664
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 173.174.67.168:35664\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Cookie: clientID1122600=1439712097738-185\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1439712097738-185\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[16/Aug/2015:05:55:59 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 173.174.67.168:35717
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 173.174.67.168:35717\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[16/Aug/2015:15:42:22 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 64.81.166.250:42426
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 64.81.166.250:42426\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: www.euterpea.com\n Accept: image/png,image/*;q=0.8,*/*;q=0.5\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US,en;q=0.5\n Referer: http://www.euterpea.com/about\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[17/Aug/2015:01:51:07 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 176.212.125.144:35103
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 176.212.125.144:35103\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[18/Aug/2015:07:40:35 -0400] ["210.177.101.105"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[18/Aug/2015:07:40:36 -0400] ["210.177.101.105"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[18/Aug/2015:20:09:39 -0400] ["78.144.197.188"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[18/Aug/2015:20:09:39 -0400] ["78.144.197.188"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Aug/2015:01:23:23 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 68.39.6.49:60895
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 68.39.6.49:60895\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-7417887\n Accept: */*\n X-Playback-Session-Id: E179D25C-A463-4E69-BFB2-2C2BB6C335A5\n Accept-Encoding: identity\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[19/Aug/2015:01:23:25 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 68.39.6.49:60896
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 68.39.6.49:60896\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=4344-7417887\n Accept: */*\n X-Playback-Session-Id: E179D25C-A463-4E69-BFB2-2C2BB6C335A5\n Accept-Encoding: identity\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[19/Aug/2015:01:24:31 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 68.39.6.49:60904
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 68.39.6.49:60904\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-7417887\n Accept: */*\n X-Playback-Session-Id: 8C93158D-96F4-40D7-BFC8-A7ED521E9E37\n Accept-Encoding: identity\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[19/Aug/2015:01:51:34 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 68.39.6.49:61480
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 68.39.6.49:61480\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-7417887\n Accept: */*\n X-Playback-Session-Id: 4EA20FC9-FECE-4DBA-A0E6-0B6861D66845\n Accept-Encoding: identity\n Cookie: clientID1122600=1439961904551-702\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1439961904551-702\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[20/Aug/2015:06:59:38 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 1.222.26.117:40383
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 1.222.26.117:40383\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; SHW-M480W Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip,deflate\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[20/Aug/2015:07:00:58 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 1.222.26.117:40386
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 1.222.26.117:40386\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; SHW-M480W Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip,deflate\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[20/Aug/2015:18:55:06 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 72.177.28.27:42510
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 72.177.28.27:42510\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[21/Aug/2015:00:43:24 -0400] ["199.83.94.74"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Aug/2015:00:47:22 -0400] ["199.83.94.74"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Aug/2015:01:49:20 -0400] ["199.83.94.74"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Aug/2015:02:19:55 -0400] ["199.83.94.74"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Aug/2015:03:08:02 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 109.42.2.65:60453
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 109.42.2.65:60453\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Cache-Control: max-age=259200\n Accept-Language: en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[22/Aug/2015:08:36:52 -0400] ["71.6.135.131"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Aug/2015:08:36:54 -0400] ["71.6.135.131"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Aug/2015:12:50:33 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[22/Aug/2015:13:33:42 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 93.105.181.107:61238
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 93.105.181.107:61238\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[23/Aug/2015:03:28:16 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 118.136.212.176:52692
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 118.136.212.176:52692\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[23/Aug/2015:03:30:19 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 118.136.212.176:52707
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 118.136.212.176:52707\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36\n Connection: keep-alive\n If-Range: Sat, 28 Feb 2015 11:56:06 GMT\n Host: euterpea.com\n Range: bytes=231680-7417887\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[23/Aug/2015:10:30:17 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[23/Aug/2015:13:19:32 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 157.55.39.61:9958
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 157.55.39.61:9958\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\n Connection: Keep-Alive\n Pragma: no-cache\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/mac.png\n    contextpath: /\n    URI: /imgs/mac.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[24/Aug/2015:17:39:26 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 176.83.46.122:21280
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 176.83.46.122:21280\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: LG-D802/Mozilla/5.0 (Linux; U; Android 4.4.2; es-es; LG-D802 Build/KOT49I.D80220a) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.2 Chrome/30.0.1599.103 Mobile Safari/537.36\n x-up-subno: 8340211157601080000\n Connection: keep-alive\n Via: 1.1 Bytemobile OSN WebProxy/6.0\n Host: euterpea.com\n Accept: */*\n TM_user-id: 8340211157601080000\n Accept-Encoding: gzip,deflate\n Cache-Control: max-age=43200\n Accept-Language: es-ES,en-US;q=0.8\n x-wap-profile: http://gsm.lge.com/html/gsm/D802-M5-D1-KK.xml\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[25/Aug/2015:07:41:59 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 37.235.48.150:47002
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 37.235.48.150:47002\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[25/Aug/2015:07:48:43 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 37.235.48.150:47040
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 37.235.48.150:47040\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[25/Aug/2015:11:50:15 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 130.132.173.251:21531
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 130.132.173.251:21531\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-7417887\n Accept: */*\n X-Playback-Session-Id: 4DAFA0BC-4EDF-4F28-9515-AD0B3E181166\n Accept-Encoding: identity\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[26/Aug/2015:00:54:34 -0400] ["66.240.236.119"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Aug/2015:00:54:34 -0400] ["66.240.236.119"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Aug/2015:09:52:00 -0400] ["188.138.1.218"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Aug/2015:09:52:00 -0400] ["188.138.1.218"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Aug/2015:09:52:15 -0400] ["188.138.1.218"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Aug/2015:09:52:16 -0400] ["188.138.1.218"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Aug/2015:09:52:32 -0400] ["188.138.1.218"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Aug/2015:02:29:31 -0400] ["150.7.148.46"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Aug/2015:06:40:25 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 79.191.89.97:62338
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 79.191.89.97:62338\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[27/Aug/2015:10:46:40 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 130.238.17.81:65359
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 130.238.17.81:65359\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: sv-SE,sv;q=0.8,en-US;q=0.5,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[28/Aug/2015:00:51:14 -0400] ["209.58.131.5"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Aug/2015:08:35:26 -0400] ["187.101.238.92"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Aug/2015:03:56:17 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 64.141.86.130:54297
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 64.141.86.130:54297\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Accept: image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate, sdch\n Accept-Language: en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4,zh-TW;q=0.2,de;q=0.2,ko;q=0.2\n Referer: https://www.google.ca/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[29/Aug/2015:03:57:26 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 208.184.77.186:48593
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 208.184.77.186:48593\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1\n Host: euterpea.com\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[29/Aug/2015:03:57:26 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 208.184.77.186:48594
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 208.184.77.186:48594\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1\n Host: euterpea.com\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[30/Aug/2015:06:49:25 -0400] ["65.79.205.147"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Aug/2015:06:49:25 -0400] ["65.79.205.147"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Aug/2015:15:45:20 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 207.251.103.46:51848
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 207.251.103.46:51848\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:39.0) Gecko/20100101 conkeror/1.0pre1\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Cookie: clientID1122600=1440963736651-158\n Accept-Language: en-US,en;q=0.5\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1440963736651-158\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[30/Aug/2015:17:30:32 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 172.250.99.153:43704
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 172.250.99.153:43704\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.6.3 (KHTML, like Gecko) Version/8.0.6 Safari/600.6.3\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-7417887\n Accept: */*\n X-Playback-Session-Id: 465EF162-DBC2-4F4E-814F-3AC0B05044C9\n Accept-Encoding: identity\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[30/Aug/2015:19:56:24 -0400] ["138.0.204.2"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Aug/2015:19:56:24 -0400] ["138.0.204.2"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Aug/2015:19:56:24 -0400] ["138.0.204.2"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Aug/2015:19:56:24 -0400] ["138.0.204.2"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Aug/2015:19:56:24 -0400] ["138.0.204.2"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Aug/2015:02:28:24 -0400] ["61.245.133.10"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Aug/2015:02:28:25 -0400] ["61.245.133.10"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Sep/2015:21:49:32 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 76.89.65.81:57959
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 76.89.65.81:57959\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[01/Sep/2015:22:25:20 -0400] ["142.54.187.42"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Sep/2015:02:56:45 -0400] ["188.165.15.29"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Sep/2015:05:26:28 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 98.242.145.97:63445
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 98.242.145.97:63445\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240\n Connection: Keep-Alive\n GetContentFeatures.DLNA.ORG: 1\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cookie: clientID1122600=1441185998447-230\n Accept-Language: en-US\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1441185998447-230\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[02/Sep/2015:05:26:31 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 98.242.145.97:63446
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 98.242.145.97:63446\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240\n If-Unmodified-Since: Sat, 28 Feb 2015 11:56:06 GMT\n Connection: Keep-Alive\n GetContentFeatures.DLNA.ORG: 1\n Host: euterpea.com\n Range: bytes=606208-7417887\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cookie: clientID1122600=1441185998447-230\n Accept-Language: en-US\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1441185998447-230\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[02/Sep/2015:07:08:17 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 217.189.88.19:54272
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 217.189.88.19:54272\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[03/Sep/2015:08:14:17 -0400] ["50.40.199.111"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:16:25:02 -0400] ["66.240.236.119"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:16:25:03 -0400] ["66.240.236.119"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:16:25:14 -0400] ["66.240.236.119"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:18:44:32 -0400] ["50.206.82.181"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:18:44:33 -0400] ["50.206.82.181"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:18:44:35 -0400] ["50.206.82.181"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:18:44:36 -0400] ["50.206.82.181"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:18:44:37 -0400] ["50.206.82.181"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Sep/2015:18:44:38 -0400] ["50.206.82.181"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[04/Sep/2015:10:48:57 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 23.243.243.82:39498
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 23.243.243.82:39498\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Cookie: clientID1122600=1441378124652-615\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1441378124652-615\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[04/Sep/2015:11:09:35 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 23.243.243.82:39724
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 23.243.243.82:39724\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36\n Connection: keep-alive\n DNT: 1\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[04/Sep/2015:22:40:13 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 74.67.180.67:50000
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 74.67.180.67:50000\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n DNT: 1\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[05/Sep/2015:00:08:26 -0400] ["71.188.122.191"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Sep/2015:00:08:26 -0400] ["71.188.122.191"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Sep/2015:00:08:26 -0400] ["71.188.122.191"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Sep/2015:00:08:26 -0400] ["71.188.122.191"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Sep/2015:04:44:02 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 157.55.39.40:60981
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 157.55.39.40:60981\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)\n Connection: Keep-Alive\n Pragma: no-cache\n Host: euterpea.com\n Accept: */*\n From: bingbot(at)microsoft.com\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/mac.png\n    contextpath: /\n    URI: /imgs/mac.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[06/Sep/2015:16:25:45 -0400] ["212.59.30.110"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[06/Sep/2015:16:35:15 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 23.243.243.82:59365
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 23.243.243.82:59365\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36\n Connection: keep-alive\n DNT: 1\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[07/Sep/2015:02:41:54 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 31.154.91.211:19879
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 31.154.91.211:19879\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8,ar;q=0.6\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[07/Sep/2015:02:43:19 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 31.154.91.211:23507
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 31.154.91.211:23507\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n If-Range: Sat, 28 Feb 2015 11:56:06 GMT\n Host: www.euterpea.com\n Range: bytes=233800-7417887\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8,ar;q=0.6\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[07/Sep/2015:05:29:59 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 31.154.91.211:32356
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 31.154.91.211:32356\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8,ar;q=0.6\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[07/Sep/2015:08:01:45 -0400] ["142.54.165.138"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[07/Sep/2015:09:08:42 -0400] ["93.120.27.62"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[07/Sep/2015:09:08:42 -0400] ["93.120.27.62"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Sep/2015:08:37:24 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 81.174.11.248:9970
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 81.174.11.248:9970\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: it,en-US;q=0.7,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[08/Sep/2015:16:34:34 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 97.78.71.196:61971
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 97.78.71.196:61971\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[08/Sep/2015:16:34:44 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 97.78.71.196:61976
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 97.78.71.196:61976\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[08/Sep/2015:19:02:16 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:37373
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:37373\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[08/Sep/2015:19:02:16 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:37373
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:37373\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[08/Sep/2015:19:35:05 -0400] ["87.249.150.93"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Sep/2015:22:02:27 -0400] ["181.198.26.28"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Sep/2015:09:18:59 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 24.203.122.83:36200
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 24.203.122.83:36200\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Fedora; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[09/Sep/2015:20:13:05 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 218.147.254.79:7063
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 218.147.254.79:7063\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Cookie: clientID1122600=1441843235764-772\n Accept-Language: ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1441843235764-772\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[09/Sep/2015:21:44:02 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 207.38.220.152:50438
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 207.38.220.152:50438\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[10/Sep/2015:15:51:18 -0400] ["189.48.252.222"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Sep/2015:00:51:18 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 173.68.152.216:56033
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 173.68.152.216:56033\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9\n Connection: keep-alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Accept-Language: en-us\n Referer: http://euterpea.com/about\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[12/Sep/2015:03:51:27 -0400] ["142.54.165.138"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Sep/2015:09:55:27 -0400] ["49.230.81.1"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Sep/2015:14:03:46 -0400] ["66.240.192.138"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Sep/2015:14:03:47 -0400] ["66.240.192.138"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Sep/2015:12:38:00 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 100.33.107.177:54140
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 100.33.107.177:54140\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[15/Sep/2015:12:40:32 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 100.33.107.177:54169
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 100.33.107.177:54169\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Accept: image/webp,image/*,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/about\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/wc.png\n    contextpath: /\n    URI: /imgs/wc.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[15/Sep/2015:14:04:03 -0400] ["142.54.165.138"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Sep/2015:14:23:18 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 85.7.27.122:64202
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 85.7.27.122:64202\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B5110e Safari/601.1\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-7417887\n Accept: */*\n X-Playback-Session-Id: E2458F0C-B143-463A-A1D8-7E36C731B9A4\n Accept-Encoding: identity\n Accept-Language: en-us\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[15/Sep/2015:19:01:32 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 200.109.35.234:54875
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 200.109.35.234:54875\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: es-ES,es;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[16/Sep/2015:09:32:06 -0400] httpSession caught an exception during user handler phase:
+During processing of request from 5.61.40.174:4316
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 5.61.40.174:4316\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          Content-Length: 0\n User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0\n Host: euterpea.com\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: \"gzip, deflate\"Content-Type: application/x-www-form-urlencoded; charset=UTF-8\n      ========================================\n    content-length: Just 0\n    method: HEAD\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+bad 'accept-encoding' header
+[16/Sep/2015:13:57:59 -0400] ["198.20.70.114"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Sep/2015:13:57:59 -0400] ["198.20.70.114"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Sep/2015:17:07:50 -0400] ["131.253.25.232"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Sep/2015:20:16:46 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 4.15.30.131:62998
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 4.15.30.131:62998\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[17/Sep/2015:02:25:29 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 105.210.87.242:17023
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 105.210.87.242:17023\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Accept: image/png,image/*;q=0.8,*/*;q=0.5\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/about\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[17/Sep/2015:02:25:34 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 105.210.87.242:16998
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 105.210.87.242:16998\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[17/Sep/2015:04:45:39 -0400] ["142.105.58.229"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Sep/2015:04:45:39 -0400] ["142.105.58.229"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Sep/2015:15:45:30 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[17/Sep/2015:15:53:58 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[17/Sep/2015:17:09:56 -0400] ["142.54.165.138"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[18/Sep/2015:17:45:57 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 204.132.65.156:41280
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 204.132.65.156:41280\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Accept: image/webp,image/*,*/*;q=0.8\n Accept-Encoding: gzip, deflate, sdch\n Cookie: clientID1122600=1442612731415-592\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/about\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1442612731415-592\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[19/Sep/2015:12:42:05 -0400] ["176.77.15.238"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Sep/2015:12:42:06 -0400] ["176.77.15.238"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Sep/2015:13:55:25 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 95.245.216.33:54462
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 95.245.216.33:54462\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-7417887\n Accept: */*\n X-Playback-Session-Id: A4D51C38-C403-4BC5-BDA9-F21AAA2F84BE\n Accept-Encoding: identity\n Accept-Language: it-it\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[20/Sep/2015:06:51:01 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 203.206.42.9:49295
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 203.206.42.9:49295\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[20/Sep/2015:10:40:51 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 95.245.216.33:49512
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 95.245.216.33:49512\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-7417887\n Accept: */*\n X-Playback-Session-Id: B809CADD-422C-4329-9377-3E643D5C39CF\n Accept-Encoding: identity\n Accept-Language: it-it\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[22/Sep/2015:02:43:38 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 87.149.177.17:59073
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 87.149.177.17:59073\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8,de;q=0.6\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[22/Sep/2015:04:48:08 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 98.225.168.224:39273
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 98.225.168.224:39273\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[22/Sep/2015:04:48:12 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 98.225.168.224:39213
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 98.225.168.224:39213\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36\n Connection: keep-alive\n If-Range: Sat, 28 Feb 2015 11:56:06 GMT\n Host: euterpea.com\n Range: bytes=231680-7417887\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[22/Sep/2015:05:34:01 -0400] ["186.54.8.180"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Sep/2015:05:34:02 -0400] ["186.54.8.180"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Sep/2015:16:37:27 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 86.138.44.124:55178
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 86.138.44.124:55178\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Cookie: clientID1122600=1442954136117-143\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"clientID1122600\", cookieValue = \"1442954136117-143\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[24/Sep/2015:00:03:06 -0400] ["207.150.177.129"]: an exception escaped to toplevel:
+Char.digitToInt: not a digit ';'
+[24/Sep/2015:16:10:46 -0400] ["74.91.30.42"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Sep/2015:23:41:35 -0400] ["207.150.177.200"]: an exception escaped to toplevel:
+Char.digitToInt: not a digit ';'
+[25/Sep/2015:10:48:32 -0400] ["87.98.178.61"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Sep/2015:22:44:58 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[25/Sep/2015:22:44:58 -0400] Error on startup: 
+bind: resource busy (Address already in use)
+[25/Sep/2015:22:45:13 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[25/Sep/2015:22:45:13 -0400] Error on startup: 
+bind: permission denied (Permission denied)
+[25/Sep/2015:22:48:44 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[25/Sep/2015:22:48:44 -0400] Error on startup: 
+bind: permission denied (Permission denied)
+[25/Sep/2015:22:50:53 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[25/Sep/2015:22:50:53 -0400] Error on startup: 
+bind: resource busy (Address already in use)
+[25/Sep/2015:22:53:25 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[25/Sep/2015:22:53:34 -0400] Server.httpServe: SHUTDOWN
+[25/Sep/2015:22:53:34 -0400] Server.httpServe: BACKEND STOPPED
+[25/Sep/2015:22:54:15 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[25/Sep/2015:22:55:01 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]

@@ -16,6 +16,6 @@ You will notice we seem to be a bit redundant. A better way to accomplish tasks 
 You will also need a bit about lists. Haskell's lists are well known for being very easy to work with. Conviently, Euterpea has access to any and every function in Haskell. Try and guess what these functions do to the list. You can either play them in ghci to find out, or check out <a href="https://www.haskell.org/hoogle/">Hoogle</a> for clues.
 
 > l1 = [c 4 qn, d 4 qn, e 4 qn]
-> l2 = repeat 4 l1
+> l2 = replicate 4 l1
 > l3 = reverse l1
 > l4 = cycle l1
