@@ -2237,3 +2237,41 @@ bind: resource busy (Address already in use)
 [25/Sep/2015:22:53:34 -0400] Server.httpServe: BACKEND STOPPED
 [25/Sep/2015:22:54:15 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [25/Sep/2015:22:55:01 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:12:27:49 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:12:33:57 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:12:40:13 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:12:46:01 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:18:42:49 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:18:56:33 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:18:56:40 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 129.120.2.131:57633
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 129.120.2.131:57633\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=129-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8,ko;q=0.6\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[27/Sep/2015:18:56:52 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 129.120.2.130:47088
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 129.120.2.130:47088\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8,ko;q=0.6\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[27/Sep/2015:18:58:19 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 129.120.2.130:38754
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 129.120.2.130:38754\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: euterpea.com\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate, sdch\n Accept-Language: en-US,en;q=0.8,ko;q=0.6\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[27/Sep/2015:18:58:19 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 129.120.2.131:43697
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 129.120.2.131:43697\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: */*\n Accept-Encoding: identity;q=1, *;q=0\n Accept-Language: en-US,en;q=0.8,ko;q=0.6\n Referer: http://euterpea.com/baba.wav\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.wav\n    contextpath: /\n    URI: /baba.wav\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[27/Sep/2015:19:03:31 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:19:03:55 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:19:04:23 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:19:04:56 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:19:06:47 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:19:07:17 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:19:09:04 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:19:12:23 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
