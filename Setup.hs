@@ -31,11 +31,10 @@ writeIndexTpl i files =
   let
     shorten n y = 
       tc $ intersperse "/" (lastN n $ (T.splitOn "/" y))
-    toHtmlLink x =
-      tc ["<a href=\"",fileWoExt x,"\">",shorten 2 x,"</a>"]
+    htmlLink x = toHtmlLink (fileWoExt x) (shorten 2 x)
     toHtmlList x =
       tc $ ["<ul><li>"]++intersperse "</li>\n<li>" x++["</li></ul>"]
-    p = toHtmlList $ map (toHtmlLink . shorten 3 . toTextIgnore) (sort files)
+    p = toHtmlList $ map (htmlLink . shorten 3 . toTextIgnore) (sort files)
   in do
     writefile i $ tc ["<apply template='lander'>\n",p,"</apply>"]
 
@@ -43,12 +42,16 @@ writeIndexTpl i files =
 convert_lhs_to_tpl :: Shelly.FilePath -> Sh ()
 convert_lhs_to_tpl file =
   let
-    filename =  last $ (T.split (\x -> x=='\\' || x =='/')) $ toTextIgnore file
-    nf = fromText (tc [fileWoExt $ toTextIgnore file,".tpl"]) :: Shelly.FilePath
-    code = tc ["<markdown file=\"",filename,"\"/>\n"]
+    tfile = toTextIgnore file
+    filename =  last $ (T.splitOn "/") $ tfile
+    nf = fromText (tc [fileWoExt $ tfile,".tpl"]) :: Shelly.FilePath
+    code = tc ["<markdown file=\"",filename,"\"/>\n"] 
+    title = toHtmlLink 
+             (tc [github, tc $ intersperse "/" $ lastN 2 $ T.splitOn "/" tfile])
+             (tc ["<h2>",filename,"</h2>\n"])
   in do
     writefile nf "<apply template='post'>\n"
-    appendfile nf $ tc ["<h2>",filename,"</h2>\n"]
+    appendfile nf title
     appendfile nf code
     appendfile nf "</apply>"
 
@@ -68,6 +71,11 @@ lastN n xs = foldl (const . tail) xs (drop n xs)
 fileWoExt = tc . init . T.splitOn "."
 
 tc = T.concat
+      
+toHtmlLink link text =
+  tc ["<a href=\"",link,"\">", text,"</a>"]
+
+github = "https://github.com/santolucito/EuterpeaSite/tree/master/snaplets/heist/templates/posts/"
 
 {-
 lhsToHTML :: T.Text -> T.Text

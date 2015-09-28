@@ -2275,3 +2275,30 @@ System.SendFile.Linux: resource vanished (Broken pipe)
 [27/Sep/2015:19:07:17 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [27/Sep/2015:19:09:04 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [27/Sep/2015:19:12:23 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[27/Sep/2015:23:21:31 -0400] ["61.160.223.35"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Sep/2015:08:21:01 -0400] ["74.91.30.42"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Sep/2015:10:29:46 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 131.211.25.187:58864
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 131.211.25.187:58864\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[28/Sep/2015:11:03:33 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:44565
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:44565\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[28/Sep/2015:11:03:33 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:44565
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:44565\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[28/Sep/2015:11:43:17 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[28/Sep/2015:12:19:13 -0400] ["78.46.174.55"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Sep/2015:12:21:45 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[28/Sep/2015:12:22:50 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]

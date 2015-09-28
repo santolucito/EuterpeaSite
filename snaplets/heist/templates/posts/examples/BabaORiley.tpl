@@ -1,4 +1,4 @@
 <apply template='post'>
-<h2>BabaORiley.lhs</h2>
-<markdown file="BabaORiley.lhs"/>
+<a href="https://github.com/santolucito/EuterpeaSite/tree/master/snaplets/heist/templates/posts/examples/BabaORiley.lhs"><h2>BabaORiley.lhs</h2>
+</a><markdown file="BabaORiley.lhs"/>
 </apply>
