@@ -35,13 +35,12 @@ import           Heist
 import qualified Heist.Interpreted as I
 ------------------------------------------------------------------------------
 
+import           Community
 import           Application
 import           Stock
 import qualified Db
 import           Util
 ------------------------------------------------------------------------------
-
-type H = Handler App App
 
 -- | Render login form
 handleLogin :: Maybe T.Text -> Handler App (AuthManager App) ()
@@ -57,7 +56,7 @@ handleLoginSubmit :: H ()
 handleLoginSubmit =
   with auth $ loginUser "login" "password" Nothing
     (\_ -> handleLogin . Just $ "Unknown login or incorrect password")
-    (redirect "/stocks")
+    (redirect "/community")
 
 ------------------------------------------------------------------------------
 -- | Logs out and redirects the user to the site index.
@@ -145,6 +144,7 @@ routes = [ ("/about",      cRender "about")
          , ("/login",    handleLoginSubmit)
          , ("/logout",   handleLogout)
          , ("/stocks",   handleStocks)
+         , ("/community",   handleCommunity)
          , ("",            serveDirectory "static")
          ]
 
@@ -159,7 +159,7 @@ initProcess :: Initializer App App App
 initProcess = do
     h <- nestSnaplet "" heist $ heistInit "templates"
     addRoutes routes
-    addConfig h (mempty & scCompiledSplices .~  allStockSplices)
+    addConfig h (mempty & scCompiledSplices .~  allCommentSplices)
 
     s <- nestSnaplet "sess" sess $
            initCookieSessionManager "site_key.txt" "sess" (Just 3600)

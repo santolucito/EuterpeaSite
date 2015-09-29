@@ -2332,3 +2332,17 @@ recv: resource vanished (Connection reset by peer)
 [29/Sep/2015:12:41:55 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [29/Sep/2015:12:42:46 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [29/Sep/2015:12:46:53 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:16:11:40 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:16:11:41 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:16:11:42 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:17:11:37 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:17:34:58 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:17:39:37 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:17:40:35 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:17:42:35 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:17:44:34 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:17:45:44 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:17:48:47 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]

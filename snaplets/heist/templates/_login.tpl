@@ -1,4 +1,4 @@
-<h1>Login so that you can post comments and questions</h1>
+<p>Login so that you can post comments and questions</p>
 
 <p><loginError/></p>
 
