@@ -2302,3 +2302,26 @@ ExceptionAlreadyCaught
 recv: resource vanished (Connection reset by peer)
 [28/Sep/2015:12:21:45 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [28/Sep/2015:12:22:50 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[28/Sep/2015:12:40:12 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[28/Sep/2015:12:53:12 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:50207
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:50207\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[28/Sep/2015:12:53:12 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:50207
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:50207\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[28/Sep/2015:13:18:09 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[28/Sep/2015:13:22:31 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[28/Sep/2015:13:25:06 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:09:46:19 -0400] ["105.226.94.95"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:10:28:14 -0400] ["105.226.94.95"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:11:56:42 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:12:04:24 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:12:06:36 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]

@@ -47,6 +47,13 @@
             <li><a href="/about">About</a></li>
             <li><a href="/community">Community</a></li>
             <li><a href="/install">Install</a></li>
+            <ifLoggedIn>
+            <li><a href="/logout">Logout from <loggedInUser/></a></li>
+            </ifLoggedIn>
+            <ifLoggedOut>
+            <li><a href="/login">Login</a></li>
+            </ifLoggedOut>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>

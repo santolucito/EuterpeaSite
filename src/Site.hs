@@ -146,6 +146,9 @@ routes = [ ("/about",      cRender "about")
          , ("/posts/",     cRender "post")
          , ("/posts/:cat", cRender "post")
          , ("/posts/:cat/:key", handlePost)
+         , ("/new_user", handleNewUser)
+         , ("/login",    handleLoginSubmit)
+         , ("/logout",   handleLogout)
          , ("",            serveDirectory "static")
          ]
 
