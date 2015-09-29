@@ -124,11 +124,6 @@ handleStocks =
 
 
 ------------------------------------------------------------------------------
--- | Handle stocks
-handleStock :: H ()
-handleStock =  cRender "stocks"
-
-------------------------------------------------------------------------------
 -- | Handle posts
 handlePost :: H ()
 handlePost = do
@@ -149,6 +144,7 @@ routes = [ ("/about",      cRender "about")
          , ("/new_user", handleNewUser)
          , ("/login",    handleLoginSubmit)
          , ("/logout",   handleLogout)
+         , ("/stocks",   handleStocks)
          , ("",            serveDirectory "static")
          ]
 
@@ -156,7 +152,11 @@ routes = [ ("/about",      cRender "about")
 ------------------------------------------------------------------------------
 -- | The application initializer.
 app :: SnapletInit App App
-app = makeSnaplet "app" "A snaplet example application." Nothing $ do
+app = makeSnaplet "app" "A snaplet example application." Nothing initProcess
+
+
+initProcess :: Initializer App App App
+initProcess = do
     h <- nestSnaplet "" heist $ heistInit "templates"
     addRoutes routes
     addConfig h (mempty & scCompiledSplices .~  allStockSplices)
@@ -173,4 +173,5 @@ app = makeSnaplet "app" "A snaplet example application." Nothing $ do
     liftIO $ withMVar conn $ Db.createTables
 
     addAuthSplices h auth
+    wrapSite (\site -> site <|> cRender "404")
     return $ App h s d a
