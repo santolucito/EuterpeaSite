@@ -31,8 +31,4 @@ then we apply interval function to all the incoming messages. This is automatica
 
 > foo :: [MidiMessage] -> [MidiMessage]
 > foo xs =
->   let
->     f l m = l++interval 3 m
->   in
->     foldl f [] xs 
-
+>  concatMap (interval 3) xs

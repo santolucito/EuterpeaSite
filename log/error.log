@@ -2346,3 +2346,10 @@ recv: resource vanished (Connection reset by peer)
 [29/Sep/2015:17:44:34 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [29/Sep/2015:17:45:44 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [29/Sep/2015:17:48:47 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:19:08:11 -0400] ["178.137.80.148"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:19:08:12 -0400] ["178.137.80.148"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:19:08:12 -0400] ["178.137.80.148"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:19:16:22 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
