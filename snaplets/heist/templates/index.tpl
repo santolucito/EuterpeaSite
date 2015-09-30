@@ -1,6 +1,7 @@
 <apply template='lander'>
 <ul><li><a href="posts/examples/BabaORiley">examples/BabaORiley.lhs</a></li>
 <li><a href="posts/examples/Lecture6">examples/Lecture6.lhs</a></li>
+<li><a href="posts/examples/LiveCoding">examples/LiveCoding.lhs</a></li>
 <li><a href="posts/midi/1_basics">midi/1_basics.lhs</a></li>
 <li><a href="posts/midi/2_scales">midi/2_scales.lhs</a></li>
 <li><a href="posts/midi/3_rhythm">midi/3_rhythm.lhs</a></li>

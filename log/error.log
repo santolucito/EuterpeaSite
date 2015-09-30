@@ -2353,3 +2353,21 @@ recv: resource vanished (Connection reset by peer)
 [29/Sep/2015:19:08:12 -0400] ["178.137.80.148"]: an exception escaped to toplevel:
 recv: resource vanished (Connection reset by peer)
 [29/Sep/2015:19:16:22 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:19:56:14 -0400] ["128.232.110.28"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Sep/2015:20:57:09 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[29/Sep/2015:20:59:13 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[30/Sep/2015:03:21:53 -0400] ["169.50.3.171"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Sep/2015:03:48:02 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Sep/2015:03:48:03 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Sep/2015:03:48:03 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Sep/2015:03:49:09 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Sep/2015:03:49:09 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Sep/2015:03:49:10 -0400] ["94.153.10.11"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
