@@ -12,7 +12,7 @@
     <title>Euterpea</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="/starter-template.css" rel="stylesheet">
@@ -45,7 +45,15 @@
           <ul class="nav navbar-nav">
             <li><a href="/">Code</a></li>
             <li><a href="/about">About</a></li>
+            <li><a href="/community">Community</a></li>
             <li><a href="/install">Install</a></li>
+            <ifLoggedIn>
+            <li><a href="/logout">Logout from <loggedInUser/></a></li>
+            </ifLoggedIn>
+            <ifLoggedOut>
+            <li><a href="/login">Login</a></li>
+            </ifLoggedOut>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -64,7 +72,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/dist/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/dist/js/ie10-viewport-bug-workaround.js"></script>
   </body>

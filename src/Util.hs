@@ -6,6 +6,7 @@ module Util (
   , logRunEitherT
   , getJSON
   , writeJSON
+  , H
   ) where
 
 import           Control.Monad.Trans.Either

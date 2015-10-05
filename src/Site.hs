@@ -35,13 +35,12 @@ import           Heist
 import qualified Heist.Interpreted as I
 ------------------------------------------------------------------------------
 
+import           Community
 import           Application
 import           Stock
 import qualified Db
 import           Util
 ------------------------------------------------------------------------------
-
-type H = Handler App App
 
 -- | Render login form
 handleLogin :: Maybe T.Text -> Handler App (AuthManager App) ()
@@ -57,7 +56,7 @@ handleLoginSubmit :: H ()
 handleLoginSubmit =
   with auth $ loginUser "login" "password" Nothing
     (\_ -> handleLogin . Just $ "Unknown login or incorrect password")
-    (redirect "/stocks")
+    (redirect "/community")
 
 ------------------------------------------------------------------------------
 -- | Logs out and redirects the user to the site index.
@@ -124,11 +123,6 @@ handleStocks =
 
 
 ------------------------------------------------------------------------------
--- | Handle stocks
-handleStock :: H ()
-handleStock =  cRender "stocks"
-
-------------------------------------------------------------------------------
 -- | Handle posts
 handlePost :: H ()
 handlePost = do
@@ -146,6 +140,11 @@ routes = [ ("/about",      cRender "about")
          , ("/posts/",     cRender "post")
          , ("/posts/:cat", cRender "post")
          , ("/posts/:cat/:key", handlePost)
+         , ("/new_user", handleNewUser)
+         , ("/login",    handleLoginSubmit)
+         , ("/logout",   handleLogout)
+         , ("/stocks",   handleStocks)
+         , ("/community",   handleCommunity)
          , ("",            serveDirectory "static")
          ]
 
@@ -153,10 +152,14 @@ routes = [ ("/about",      cRender "about")
 ------------------------------------------------------------------------------
 -- | The application initializer.
 app :: SnapletInit App App
-app = makeSnaplet "app" "A snaplet example application." Nothing $ do
+app = makeSnaplet "app" "A snaplet example application." Nothing initProcess
+
+
+initProcess :: Initializer App App App
+initProcess = do
     h <- nestSnaplet "" heist $ heistInit "templates"
     addRoutes routes
-    addConfig h (mempty & scCompiledSplices .~  allStockSplices)
+    addConfig h (mempty & scCompiledSplices .~  allCommentSplices)
 
     s <- nestSnaplet "sess" sess $
            initCookieSessionManager "site_key.txt" "sess" (Just 3600)
@@ -170,4 +173,5 @@ app = makeSnaplet "app" "A snaplet example application." Nothing $ do
     liftIO $ withMVar conn $ Db.createTables
 
     addAuthSplices h auth
+    wrapSite (\site -> site <|> cRender "404")
     return $ App h s d a

@@ -7,6 +7,8 @@ import Data.List
 import qualified Data.Text as T
 default (T.Text)
 
+--pretty sure this won't work on windows with their terrible file system
+
 main = do
   f <- shelly preBuild
   print f
@@ -27,40 +29,53 @@ preBuild  = do
 writeIndexTpl :: Shelly.FilePath -> [Shelly.FilePath] -> Sh ()
 writeIndexTpl i files =
   let
-    fileWoExt f =  (T.reverse . T.drop 4 . T.reverse) f
-    shorten y =
-      T.concat $ intersperse "/" (drop 8 $ (T.split (\x -> x=='\\' || x =='/')) y)
-    linkify x =
-      T.concat ["<a href=\"",fileWoExt x,"\">",T.drop 6 x,"</a>"]
-    listify x =
-      T.concat $ ["<ul><li>"]++intersperse "</li>\n<li>" x++["</li></ul>"]
-    p = listify $ map (linkify . shorten . toTextIgnore) files
+    shorten n y = 
+      tc $ intersperse "/" (lastN n $ (T.splitOn "/" y))
+    htmlLink x = toHtmlLink (fileWoExt x) (shorten 2 x)
+    toHtmlList x =
+      tc $ ["<ul><li>"]++intersperse "</li>\n<li>" x++["</li></ul>"]
+    p = toHtmlList $ map (htmlLink . shorten 3 . toTextIgnore) (sort files)
   in do
-    writefile i $ T.concat ["<apply template='lander'>\n",p,"</apply>"]
+    writefile i $ tc ["<apply template='lander'>\n",p,"</apply>"]
 
 
 convert_lhs_to_tpl :: Shelly.FilePath -> Sh ()
 convert_lhs_to_tpl file =
   let
-    filename =  last $ (T.split (\x -> x=='\\' || x =='/')) $ toTextIgnore file
-    fileWoExt =  (T.reverse . T.drop 4 . T.reverse . toTextIgnore) file
-    nf = fromText (T.concat [fileWoExt,".tpl"]) :: Shelly.FilePath
-    code = T.concat ["<markdown file=\"",filename,"\"/>\n"]
+    tfile = toTextIgnore file
+    filename =  last $ (T.splitOn "/") $ tfile
+    nf = fromText (tc [fileWoExt $ tfile,".tpl"]) :: Shelly.FilePath
+    code = tc ["<markdown file=\"",filename,"\"/>\n"] 
+    title = toHtmlLink 
+             (tc [github, tc $ intersperse "/" $ lastN 2 $ T.splitOn "/" tfile])
+             (tc ["<h2>",filename,"</h2>\n"])
   in do
     writefile nf "<apply template='post'>\n"
-    appendfile nf $ T.concat ["<h2>",filename,"</h2>\n"]
+    appendfile nf title
     appendfile nf code
     appendfile nf "</apply>"
 
 
 isHaskell :: Shelly.FilePath -> Sh Bool
 isHaskell f =
-  return (".lhs" == (T.reverse . T.take 4 . T.reverse . toTextIgnore) f)
+  return ("lhs" == (last . T.splitOn "." . toTextIgnore) f)
 
 isIndex :: Shelly.FilePath -> Sh Bool
 isIndex f =
-  return ("index.tpl" == (T.reverse . T.take 9 . T.reverse . toTextIgnore) f)
+  return ("index.tpl" == (last . T.splitOn "/" . toTextIgnore) f)
 
+--take last n elem
+lastN :: Int -> [a] -> [a]
+lastN n xs = foldl (const . tail) xs (drop n xs)
+    
+fileWoExt = tc . init . T.splitOn "."
+
+tc = T.concat
+      
+toHtmlLink link text =
+  tc ["<a href=\"",link,"\">", text,"</a>"]
+
+github = "https://github.com/santolucito/EuterpeaSite/tree/master/snaplets/heist/templates/posts/"
 
 {-
 lhsToHTML :: T.Text -> T.Text
@@ -70,14 +85,14 @@ lhsToHTML i =
     v1 = "\n<iframe width=\"420\" height=\"315\" src=\""
     v2 = "\" frameborder=\"0\" allowfullscreen></iframe><br>"
     vUrl = T.replace "watch?v=" "embed/" (T.stripEnd $ head xs)
-    vid = T.concat [v1,
+    vid = tc [v1,
                     vUrl,
                     v2]
     toCode l =
       if T.head l == '>'
-      then T.concat ["<pre>",T.stripEnd $ T.tail l,"</pre>\n"]
-      else T.concat ["<p>",T.stripEnd $ l,"</p>\n"]
-    o = T.concat $ map toCode $ ([vid] ++ tail xs)
+      then tc ["<pre>",T.stripEnd $ T.tail l,"</pre>\n"]
+      else tc ["<p>",T.stripEnd $ l,"</p>\n"]
+    o = tc $ map toCode $ ([vid] ++ tail xs)
     o' = T.replace "</pre>\n<pre>" "\n" o
     o'' = T.replace "</p>\n<p>" "" o'
   in

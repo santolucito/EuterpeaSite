@@ -1,3 +1,6 @@
 git pull
-cabal install
+ghc Setup.hs
+./Setup
+cabal install --force-reinstalls
+sudo initctl start site
 sudo initctl restart site

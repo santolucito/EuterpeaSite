@@ -18,8 +18,10 @@ surfaced - the most famous synthesizer sound wasn't even a synthesizer at all!
 It was in fact a Lowrey TBO-1 home organ, a bottom-of-the-line household model,
 but with one special setting that left it's mark on a generation of music.
 
+We will generate that sound in the proceeding code. You can listen to the final product here.
+
 <audio controls>
-  <source src="/baba.wav" type="audio/wav">
+  <source src="/baba.mp3" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 

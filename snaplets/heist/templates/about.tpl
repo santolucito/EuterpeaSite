@@ -4,7 +4,7 @@
    <div class='row'>
     <div class='col-md-12'>
       <h1 class='page-header'>
-        About 
+        About
       </h1>
     </div>
   </div>
@@ -35,28 +35,28 @@
     <div class="col-md-5 col-md-offset-1">
       <img height=200 class="img-circle" src="imgs/hudak.jpg">
       <h3><a href="http://haskell.cs.yale.edu/">Paul Hudak</a>
-        <small>P.I.</small>
+        <small>In Memoriam P.I.</small>
       </h3>
     </div> 
 
     <div class="col-md-5 col-md-offset-1">
       <img height=200 class="img-circle" src="imgs/donya.jpg">
       <h3><a href="http://www.donyaquick.com">Donya Quick</a>
-        <small>Postdoc</small>
+        <small></small>
       </h3>
     </div> 
 
     <div class="col-md-5 col-md-offset-1">
       <img height=200 class="img-circle" src="imgs/wc.png">
       <h3><a href="http://www.danwc.com">Dan Winograd-Cort</a>
-        <small>6th year PhD</small>
+        <small></small>
       </h3>
     </div> 
 
     <div class="col-md-5 col-md-offset-1">
       <img height=200 class="img-circle" src="imgs/SantolucitoHeadshot.png">
       <h3><a href="http://www.marksantolucito.com">Mark Santolucito</a>
-        <small>2nd year PhD</small>
+        <small></small>
       </h3>
     </div> 
 
