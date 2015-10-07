@@ -1,4 +1,6 @@
-{-# LANGUAGE OverloadedStrings, ScopedTypeVariables #-}
+{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE ScopedTypeVariables #-}
+{-# LANGUAGE FlexibleInstances #-}
 
 module Community (handleCommunity, allCommentSplices) where
 
@@ -10,7 +12,13 @@ import           System.IO.Unsafe
 import           Data.Int (Int64)
 import           Control.Applicative
 import           Data.Maybe
-import           Data.Aeson
+import           Data.Traversable
+import qualified Data.Map as M
+import qualified Data.Aeson as A
+import qualified Data.Aeson.Types as A
+import           Data.Text.Encoding
+
+import            Data.ByteString.Internal (ByteString)
 
 import           Snap.Core
 import           Snap.Snaplet
@@ -24,7 +32,23 @@ import           Application
 import           Util
 import           Db
 import           Login
+
 ---------------------------------------
+
+--add this to snap core?
+instance A.ToJSON Params where
+  toJSON ps = 
+    let jsonMap = (M.traverseWithKey (makeJ ps) ps)
+    in A.object $ map M.elems jsonMap
+
+--type BS = Data.ByteString.Internal.ByteString 
+makeJ :: M.Map ByteString [ByteString] -> ByteString -> [ByteString] -> [A.Pair]
+makeJ ps k v = 
+  let
+    k' = decodeASCII k 
+    v' = A.toJSON $ v
+  in [k' A..= v']
+    
 
 --this is where a database call could go
 retrieveComments :: Monad n => RuntimeSplice n [Comment]
@@ -66,9 +90,15 @@ handleCommunity =
       cRender "community"
  
     postComment user = do
-      newComment <- getJSON
-      r <- getPostParams
-      either (return $ writeText $ pack $ show r) persist newComment
+      --newComment <- getJSON
+      r' <- getPostParams
+      --either (return $ writeText $ pack $ show r') persist newComment
+      let x = A.toJSON r' :: A.Value
+      let x' = A.fromJSON x :: A.Result Comment
+      let x'' = case x' of 
+                  A.Error x -> Left "failed to get JSON"
+                  A.Success x -> Right x
+      either writeText persist x''
       allC
         where
           persist comment = do
