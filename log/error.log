@@ -2922,3 +2922,11 @@ request:
 "Request <\n    server-name: euterpea.com\n    remote: 93.196.84.123:42845\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: de,en-US;q=0.7,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
 A web handler threw an exception. Details:
 System.SendFile.Linux: resource vanished (Broken pipe)
+[07/Oct/2015:15:21:23 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[07/Oct/2015:15:23:04 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[07/Oct/2015:15:23:42 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[07/Oct/2015:15:27:36 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[07/Oct/2015:15:28:06 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[07/Oct/2015:15:28:58 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[07/Oct/2015:15:29:52 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[07/Oct/2015:15:54:31 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]

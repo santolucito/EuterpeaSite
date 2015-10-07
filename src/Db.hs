@@ -32,7 +32,7 @@ data User = User Int Text
 
 data Comment = Comment {
     commentId :: Maybe Int64,
-    user_id :: Int,
+    user_id :: Text,
     date :: Text,
     username :: Text,
     message :: Text
@@ -82,14 +82,14 @@ createTables conn = do
       (Query $
        T.concat [ "CREATE TABLE comments ("
                 , "id INTEGER PRIMARY KEY, "
-                , "user_id INTEGER NOT NULL, "
+                , "user_id TEXT NOT NULL, "
                 , "saved_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL, "
                 , "message TEXT, "
                 , "username TEXT)"])
 
 -----------------------------------------------------------
---make these polymorphic?
 -- | Retrieve list of all comments
+--   make these polymorphic?
 listComments :: Connection -> IO [Comment]
 listComments conn =
   query conn "SELECT * FROM comments" ()
