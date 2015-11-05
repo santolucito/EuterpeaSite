@@ -25,4 +25,19 @@ The most developed is the textbook, Haskell School of Music by Paul Hudak.
     </div>
   </div>
 
+   <div class='row'>
+    <div class='col-md-6'>
+      <h1 class='page-header'>
+        News
+      </h1>
+      <p>Upcoming Concert on Novemeber 20, 5:30pm, AKW . With performances by...</p>
+      <ul>
+	<li>Mark Santolucito - Yale CS Graduate Student</li>
+	<li>Donya Quick - Yale CS Graduate Student</li>
+	<li>Brian Heim - Yale Music Graduate Student</li>
+	<li>Thomas Murphy - NYC based Programmer/Musician</li>
+      </ul>
+    </div>
+   </div>
+
 </apply>

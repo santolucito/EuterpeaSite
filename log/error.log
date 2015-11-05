@@ -2930,3 +2930,1047 @@ System.SendFile.Linux: resource vanished (Broken pipe)
 [07/Oct/2015:15:28:58 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [07/Oct/2015:15:29:52 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
 [07/Oct/2015:15:54:31 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[07/Oct/2015:23:14:23 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[07/Oct/2015:23:14:23 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[07/Oct/2015:23:14:24 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:00:23:40 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:00:23:41 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:04:47:38 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:04:47:39 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:04:47:40 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:10:11:39 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:10:11:39 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:10:11:39 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:10:11:39 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:18:54:20 -0400] ["89.238.223.174"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:19:39:18 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:19:39:19 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:22:41:08 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:22:41:08 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[08/Oct/2015:22:41:09 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:06:32:33 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:06:32:33 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:06:32:34 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:06:32:34 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:12:49:07 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:16:26:55 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:16:26:55 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:16:26:56 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:16:26:56 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:16:26:57 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:16:26:57 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:21:18:23 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:21:18:24 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[09/Oct/2015:21:18:24 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:08:30:35 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:08:30:36 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:08:30:37 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:10:19:58 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:10:19:59 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:10:19:59 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:20:04:12 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:20:04:13 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:20:04:13 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:20:06:13 -0400] ["222.186.3.74"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:21:41:25 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:21:41:25 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:21:41:25 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:21:41:25 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:21:41:26 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[10/Oct/2015:21:41:26 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[11/Oct/2015:06:28:37 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 89.72.55.204:50081
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 89.72.55.204:50081\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: pl,en-US;q=0.7,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[11/Oct/2015:11:15:32 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[11/Oct/2015:11:15:32 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[11/Oct/2015:11:15:33 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[11/Oct/2015:14:35:09 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:51148
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:51148\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[11/Oct/2015:14:35:09 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:51148
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:51148\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[11/Oct/2015:23:51:19 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[11/Oct/2015:23:51:19 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[11/Oct/2015:23:51:21 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:00:28:49 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:00:28:50 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:00:28:50 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:00:28:51 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:00:28:51 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:00:28:52 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:05:17:44 -0400] ["182.92.79.205"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:11:27:09 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 98.203.44.152:49802
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 98.203.44.152:49802\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240\n Connection: Keep-Alive\n GetContentFeatures.DLNA.ORG: 1\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[12/Oct/2015:11:27:10 -0400] ["98.203.44.152"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:11:28:46 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 98.203.44.152:49806
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 98.203.44.152:49806\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240\n Connection: Keep-Alive\n Host: euterpea.com\n Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US\n Referer: http://euterpea.com/about\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[12/Oct/2015:15:59:27 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:15:59:27 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:15:59:28 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:15:59:28 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:15:59:29 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:15:59:29 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:16:02:22 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:16:02:22 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:16:02:23 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:16:02:23 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:16:56:18 -0400] ["50.128.206.167"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:16:56:18 -0400] ["50.128.206.167"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:17:41:18 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:17:41:19 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[12/Oct/2015:17:41:20 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:06:48:39 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:06:48:39 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:06:48:40 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:16:11:50 -0400] ["123.220.251.190"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:16:47:31 -0400] ["107.150.45.50"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:22:23:39 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:22:23:40 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:22:23:41 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[13/Oct/2015:23:13:52 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 83.60.221.47:58197
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 83.60.221.47:58197\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Linux; Android 5.0; ALE-L21 Build/HuaweiALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36\n Connection: keep-alive\n X-Requested-With: com.android.browser\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip,deflate\n Accept-Language: it-IT,en-US;q=0.8\n x-wap-profile: http://wap1.huawei.com/uaprof/HUAWEI_ALE-L21_UAProfile.xml\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[14/Oct/2015:00:29:58 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:00:29:59 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:00:29:59 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:04:03:15 -0400] ["188.165.15.79"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:05:00:36 -0400] ["111.248.110.165"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:09:10:49 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 147.210.128.48:38844
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 147.210.128.48:38844\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[14/Oct/2015:14:17:15 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:14:17:15 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:14:17:16 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:15:28:57 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 96.245.190.74:9791
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 96.245.190.74:9791\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36\n Connection: keep-alive\n Host: euterpea.com\n Accept: image/webp,image/*,*/*;q=0.8\n Accept-Encoding: gzip, deflate, sdch\n Accept-Language: en-US,en;q=0.8\n Referer: https://www.google.com/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[14/Oct/2015:15:31:57 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:15:31:57 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:15:31:58 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:15:45:33 -0400] ["66.191.18.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:15:49:33 -0400] ["66.191.18.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:15:49:33 -0400] ["66.191.18.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:16:53:52 -0400] ["192.228.157.92"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:16:54:35 -0400] ["192.228.157.92"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[14/Oct/2015:16:54:36 -0400] ["192.228.157.92"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:06:11:08 -0400] ["5.135.148.249"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:09:01:31 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:09:01:32 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:09:01:33 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:12:06:11 -0400] ["68.150.216.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:12:06:59 -0400] ["68.150.216.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:12:07:00 -0400] ["68.150.216.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:13:37:32 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:13:37:32 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:13:37:33 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:13:37:33 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:13:37:33 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:13:37:34 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:14:21:22 -0400] ["222.186.21.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:15:02:49 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 65.55.217.55:9563
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 65.55.217.55:9563\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;  Trident/5.0)\n Connection: Keep-Alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/midi/chorale\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: bootstrap/css/bootstrap.min.css\n    contextpath: /\n    URI: /bootstrap/css/bootstrap.min.css\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[15/Oct/2015:15:02:49 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 65.55.217.55:9563
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 65.55.217.55:9563\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;  Trident/5.0)\n Connection: Keep-Alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/midi/chorale\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: bootstrap/css/bootstrap.min.css\n    contextpath: /\n    URI: /bootstrap/css/bootstrap.min.css\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[15/Oct/2015:15:03:12 -0400] ["65.55.217.55"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:15:03:12 -0400] ["65.55.217.55"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:17:49:19 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 65.55.218.170:3266
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 65.55.218.170:3266\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0;  Trident/5.0)\n Connection: Keep-Alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/midi/chorale\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: bootstrap/css/bootstrap.min.css\n    contextpath: /\n    URI: /bootstrap/css/bootstrap.min.css\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[15/Oct/2015:17:49:19 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 65.55.218.170:3266
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 65.55.218.170:3266\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0;  Trident/5.0)\n Connection: Keep-Alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/midi/chorale\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: bootstrap/css/bootstrap.min.css\n    contextpath: /\n    URI: /bootstrap/css/bootstrap.min.css\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[15/Oct/2015:17:49:40 -0400] ["65.55.218.170"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:17:49:40 -0400] ["65.55.218.170"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:18:49:40 -0400] ["65.55.210.106"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:18:49:40 -0400] ["65.55.210.106"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:18:49:40 -0400] ["65.55.210.106"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:22:27:58 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 71.67.171.94:52315
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 71.67.171.94:52315\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[15/Oct/2015:23:04:05 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:23:04:06 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[15/Oct/2015:23:04:06 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:01:47:50 -0400] ["36.230.21.10"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:01:48:53 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:01:48:53 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:01:48:54 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:01:48:54 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:01:48:54 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:01:48:54 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:05:43:14 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 65.55.217.55:2614
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 65.55.217.55:2614\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;  Trident/5.0)\n Connection: Keep-Alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n Accept-Language: en-us\n Referer: http://euterpea.com/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: bootstrap/css/bootstrap.min.css\n    contextpath: /\n    URI: /bootstrap/css/bootstrap.min.css\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[16/Oct/2015:05:43:14 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 65.55.217.55:2614
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 65.55.217.55:2614\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;  Trident/5.0)\n Connection: Keep-Alive\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Cache-Control: no-cache\n Accept-Language: en-us\n Referer: http://euterpea.com/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: bootstrap/css/bootstrap.min.css\n    contextpath: /\n    URI: /bootstrap/css/bootstrap.min.css\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[16/Oct/2015:05:43:26 -0400] ["65.55.217.55"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:05:43:26 -0400] ["65.55.217.55"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:08:54:38 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:08:54:39 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:08:54:40 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:15:02:51 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:15:02:52 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:15:02:53 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:16:11:03 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 89.85.199.10:53176
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 89.85.199.10:53176\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[16/Oct/2015:21:48:06 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:21:48:07 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:21:48:07 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:22:37:56 -0400] ["149.129.145.40"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:22:41:56 -0400] ["149.129.145.40"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[16/Oct/2015:22:41:57 -0400] ["149.129.145.40"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:00:10:57 -0400] ["158.69.223.28"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:03:07:57 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:03:07:58 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:03:07:58 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:04:47:12 -0400] ["177.130.227.119"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:07:33:56 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 2.230.224.50:39822
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 2.230.224.50:39822\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[17/Oct/2015:07:56:38 -0400] ["158.69.223.28"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:09:28:33 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 78.102.142.77:47504
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 78.102.142.77:47504\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[17/Oct/2015:17:03:34 -0400] ["168.235.152.146"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:17:43:50 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:17:43:51 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:17:43:52 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:21:46:12 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:21:46:13 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[17/Oct/2015:21:46:13 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[18/Oct/2015:19:30:47 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[18/Oct/2015:19:30:47 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[18/Oct/2015:19:30:48 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:04:49:51 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:04:49:52 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:04:49:52 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:07:58:17 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:07:58:18 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:07:58:19 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:10:45:17 -0400] ["142.54.172.100"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:11:47:30 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:11:47:31 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:11:47:32 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:12:24:20 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:12:24:21 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:12:24:21 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:13:12:42 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[19/Oct/2015:13:13:18 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[19/Oct/2015:13:13:44 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[19/Oct/2015:13:14:29 -0400] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[19/Oct/2015:13:37:59 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:13:37:59 -0400] ["134.249.52.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[19/Oct/2015:15:32:07 -0400] ["114.111.166.251"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:03:28:23 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:03:28:24 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:03:28:24 -0400] ["46.118.117.53"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:11:08:56 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:11:08:57 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:11:08:57 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:12:08:27 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 186.46.206.234:13250
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 186.46.206.234:13250\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.14) Gecko/20110218 AlexaToolbar/alxf-2.0 Firefox/3.6.14\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Accept-Charset: *\n Range: bytes=0-\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US, en\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[20/Oct/2015:12:09:15 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:12:09:15 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[20/Oct/2015:12:09:16 -0400] ["46.118.115.132"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:00:28:50 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:00:28:51 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:01:18:56 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:01:18:57 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:01:18:57 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:04:43:58 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:52140
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:52140\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[21/Oct/2015:04:43:58 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:52140
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:52140\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[21/Oct/2015:04:59:47 -0400] ["142.54.172.99"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:07:22:12 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:07:22:13 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:08:53:22 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 189.217.151.208:51548
+request:
+"Request <\n    server-name: www.euterpea.com\n    remote: 189.217.151.208:51548\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.4.10 (KHTML, like Gecko) Version/7.1.4 Safari/537.85.13\n Connection: keep-alive\n Host: www.euterpea.com\n Range: bytes=0-608383\n Accept: */*\n X-Playback-Session-Id: FD6F81BA-6B85-4F1C-B1CB-E719F0F9A369\n Accept-Encoding: identity\n Referer: http://www.euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[21/Oct/2015:11:32:18 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 78.194.12.65:50309
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 78.194.12.65:50309\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[21/Oct/2015:13:18:07 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 77.98.245.89:52782
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 77.98.245.89:52782\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[21/Oct/2015:13:55:22 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:13:55:23 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[21/Oct/2015:13:55:24 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:02:14:48 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:02:14:49 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:02:14:49 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:04:22:20 -0400] ["142.54.172.106"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:12:30:07 -0400] ["142.54.172.110"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:13:11:29 -0400] ["203.67.9.73"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:13:36:12 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:13:36:13 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:06:22 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:06:22 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:06:22 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:06:23 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:06:23 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:06:23 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:06:24 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:06:24 -0400] ["178.137.83.56"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:16:22:36 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[22/Oct/2015:19:23:45 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:01:40:05 -0400] ["142.54.172.106"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:05:32:40 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:05:32:41 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:07:41:37 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:07:41:37 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:07:41:38 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:08:40:41 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 217.168.131.180:46068
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 217.168.131.180:46068\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[23/Oct/2015:13:23:32 -0400] ["142.54.172.107"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:17:44:19 -0400] ["74.238.23.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:17:44:19 -0400] ["74.238.23.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:17:44:19 -0400] ["74.238.23.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:17:44:19 -0400] ["74.238.23.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:17:44:19 -0400] ["74.238.23.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:17:44:19 -0400] ["74.238.23.130"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[23/Oct/2015:21:18:38 -0400] ["203.67.9.75"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:08:00:12 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:08:00:13 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:08:00:13 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:08:57:49 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 2.86.55.56:42186
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 2.86.55.56:42186\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          X-Do-Not-Track: 1\n User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) qutebrowser/0.4.1 Safari/538.1\n Connection: Keep-Alive\n DNT: 1\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US,en\n Referer: http://euterpea.com/about\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[24/Oct/2015:10:56:06 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:10:56:07 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:10:56:07 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:12:36:02 -0400] ["142.54.174.69"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:20:01:58 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:20:01:59 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[24/Oct/2015:20:01:59 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:02:29:52 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:02:29:52 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:02:29:53 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:04:24:12 -0400] ["203.67.9.75"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:09:34:11 -0400] ["142.54.172.108"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:14:56:12 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:14:56:12 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:15:20:30 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:44717
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:44717\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[25/Oct/2015:15:20:30 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:44717
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:44717\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[25/Oct/2015:16:59:19 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:16:59:20 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[25/Oct/2015:16:59:21 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:06:12:07 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:06:12:08 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:06:38:04 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:06:38:05 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:06:42:51 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:07:36:23 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:07:36:23 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:07:36:24 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:17:09:38 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:17:09:39 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:17:09:40 -0400] ["178.137.62.185"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:21:08:19 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:21:08:19 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:21:08:19 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:21:08:20 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[26/Oct/2015:21:08:20 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:00:59:41 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:00:59:43 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:07:52:15 -0400] ["142.54.172.107"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:08:06:31 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:08:06:32 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:08:06:33 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:09:35:50 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:09:35:51 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:09:35:51 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:12:38:27 -0400] ["142.54.187.43"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:23:54:53 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:23:54:53 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[27/Oct/2015:23:54:54 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Oct/2015:01:56:32 -0400] ["65.52.100.214"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Oct/2015:05:51:52 -0400] ["142.54.174.66"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Oct/2015:09:40:02 -0400] httpSession caught an exception during user handler phase:
+During processing of request from 80.79.119.235:2131
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 80.79.119.235:2131\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          Content-Length: 0\n User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0\n Host: euterpea.com\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: \"gzip, deflate\"Content-Type: application/x-www-form-urlencoded; charset=UTF-8\n      ========================================\n    content-length: Just 0\n    method: HEAD\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+bad 'accept-encoding' header
+[28/Oct/2015:13:17:32 -0400] ["63.141.226.242"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Oct/2015:16:47:17 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Oct/2015:16:47:18 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Oct/2015:16:47:19 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[28/Oct/2015:17:40:36 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 68.47.57.101:62128
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 68.47.57.101:62128\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240\n Connection: Keep-Alive\n GetContentFeatures.DLNA.ORG: 1\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[28/Oct/2015:18:10:07 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:00:30:47 -0400] ["63.141.228.70"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:04:01:39 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:04:01:39 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:04:01:39 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:04:01:39 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:04:01:40 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:04:01:40 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:08:11:16 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:08:11:18 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:08:43:37 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:44357
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:44357\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+send: resource vanished (Connection reset by peer)
+[29/Oct/2015:08:43:37 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 137.226.113.7:44357
+request:
+"Request <\n    server-name: 192.241.244.95\n    remote: 137.226.113.7:44357\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Scanning for research (researchscan.comsys.rwth-aachen.de)\n Connection: Keep-Alive\n Host: 192.241.244.95\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+ExceptionAlreadyCaught
+[29/Oct/2015:09:57:32 -0400] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:09:57:33 -0400] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:09:57:33 -0400] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:14:13:38 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:14:13:39 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[29/Oct/2015:14:13:39 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:04:38:10 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:04:38:10 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:04:38:10 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:04:38:10 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:04:38:11 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:04:38:11 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:06:40:41 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:06:40:43 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:06:57:43 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:06:57:44 -0400] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:10:51:45 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:10:51:45 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:10:51:46 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:22:23:15 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:22:23:15 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[30/Oct/2015:22:23:16 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:18:03:25 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 68.47.57.101:63352
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 68.47.57.101:63352\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240\n Connection: Keep-Alive\n GetContentFeatures.DLNA.ORG: 1\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[31/Oct/2015:18:03:26 -0400] httpSession caught an exception during sending response phase:
+During processing of request from 68.47.57.101:63353
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 68.47.57.101:63353\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240\n Connection: Keep-Alive\n GetContentFeatures.DLNA.ORG: 1\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[31/Oct/2015:18:40:34 -0400] ["87.106.42.97"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:18:46:14 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:18:46:14 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:18:46:14 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:18:46:15 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:18:46:15 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:18:46:16 -0400] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:19:44:17 -0400] ["65.112.10.206"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:22:44:35 -0400] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:22:44:35 -0400] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[31/Oct/2015:22:44:36 -0400] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:01:05:24 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:01:05:24 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:01:05:25 -0400] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:05:09:51 -0500] httpSession caught an exception during user handler phase:
+During processing of request from 80.79.119.220:3376
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 80.79.119.220:3376\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          Content-Length: 0\n User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0\n Host: euterpea.com\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: \"gzip, deflate\"Content-Type: application/x-www-form-urlencoded; charset=UTF-8\n      ========================================\n    content-length: Just 0\n    method: HEAD\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+bad 'accept-encoding' header
+[01/Nov/2015:08:43:00 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:08:43:01 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:08:43:02 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:12:03:04 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:12:03:05 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:12:03:06 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:15:08:51 -0500] httpSession caught an exception during sending response phase:
+During processing of request from 65.128.96.95:64678
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 65.128.96.95:64678\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.7 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.7\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-608383\n Accept: */*\n X-Playback-Session-Id: 69178452-4E92-4B4C-A621-1249DDE00301\n Accept-Encoding: identity\n Accept-Language: en-us\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[01/Nov/2015:15:35:08 -0500] httpSession caught an exception during sending response phase:
+During processing of request from 76.24.26.31:54823
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 76.24.26.31:54823\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n DNT: 1\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[01/Nov/2015:17:36:11 -0500] httpSession caught an exception during sending response phase:
+During processing of request from 66.103.63.146:55222
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 66.103.63.146:55222\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: AppleCoreMedia/1.0.0.11B554a (iPad; U; CPU OS 7_0_4 like Mac OS X; en_us)\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-608383\n Accept: */*\n X-Playback-Session-Id: 35814973-666F-47A6-A207-A371B9D69B7E\n Accept-Encoding: identity\n Accept-Language: en-us\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+thread killed
+[01/Nov/2015:20:18:18 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:20:18:20 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[01/Nov/2015:20:18:20 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:03:48:40 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:03:48:40 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:10:17:13 -0500] ["128.103.224.59"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:11:32:14 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:11:32:14 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:11:32:14 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:11:32:14 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:11:32:15 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:11:32:15 -0500] ["178.137.94.166"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:13:57:50 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:13:57:51 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:13:57:51 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:14:17:24 -0500] httpSession caught an exception during sending response phase:
+During processing of request from 69.41.14.215:48935
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 69.41.14.215:48935\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.1\n Host: euterpea.com\n Accept: */*\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/mac.png\n    contextpath: /\n    URI: /imgs/mac.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[02/Nov/2015:14:57:36 -0500] httpSession caught an exception during user handler phase:
+During processing of request from 5.45.71.133:1553
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 5.45.71.133:1553\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          Content-Length: 0\n User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0\n Host: euterpea.com\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Encoding: \"gzip, deflate\"Content-Type: application/x-www-form-urlencoded; charset=UTF-8\n      ========================================\n    content-length: Just 0\n    method: HEAD\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+bad 'accept-encoding' header
+[02/Nov/2015:18:51:17 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[02/Nov/2015:21:45:52 -0500] ["65.112.8.140"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:14:30:02 -0500] ["95.229.247.176"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:17:38:38 -0500] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:17:38:38 -0500] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:17:38:39 -0500] ["37.115.154.109"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:20:26:02 -0500] ["65.112.11.51"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:20:26:21 -0500] ["65.112.11.51"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:22:16:42 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:22:16:43 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:22:30:27 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:22:30:28 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:22:30:28 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:22:30:29 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:22:30:29 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:22:30:30 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[03/Nov/2015:23:37:12 -0500] ["101.68.126.24"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[04/Nov/2015:09:51:23 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[04/Nov/2015:09:51:24 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[04/Nov/2015:09:51:24 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[04/Nov/2015:13:09:10 -0500] httpSession caught an exception during sending response phase:
+During processing of request from 88.172.249.28:40729
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 88.172.249.28:40729\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-\n Accept: audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[04/Nov/2015:13:10:25 -0500] httpSession caught an exception during sending response phase:
+During processing of request from 88.172.249.28:40755
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 88.172.249.28:40755\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0\n Connection: keep-alive\n Host: euterpea.com\n Accept: image/png,image/*;q=0.8,*/*;q=0.5\n Accept-Encoding: gzip, deflate\n Accept-Language: en-US,en;q=0.5\n Referer: http://euterpea.com/about\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: imgs/SantolucitoHeadshot.png\n    contextpath: /\n    URI: /imgs/SantolucitoHeadshot.png\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Broken pipe)
+[04/Nov/2015:18:52:43 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[04/Nov/2015:18:52:44 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[04/Nov/2015:18:52:44 -0500] ["37.115.184.26"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Nov/2015:01:10:44 -0500] ["129.41.138.202"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Nov/2015:02:34:17 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Nov/2015:02:34:18 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Nov/2015:02:34:19 -0500] ["46.119.123.33"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Nov/2015:07:58:19 -0500] httpSession caught an exception during sending response phase:
+During processing of request from 167.60.134.144:49656
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 167.60.134.144:49656\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; SM-G530M Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 TwitterAndroid\n Connection: keep-alive\n X-Requested-With: com.twitter.android\n Host: euterpea.com\n Accept: */*\n Accept-Encoding: gzip,deflate\n Accept-Language: es-US,en-US;q=0.8\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[05/Nov/2015:09:14:25 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:09:14:25 -0500] Error on startup: 
+bind: permission denied (Permission denied)
+[05/Nov/2015:09:14:48 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:09:29:04 -0500] httpSession caught an exception during sending response phase:
+During processing of request from 212.159.44.96:49803
+request:
+"Request <\n    server-name: euterpea.com\n    remote: 212.159.44.96:49803\n    local: 192.241.244.95:0\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.2.7 (KHTML, like Gecko) Version/9.0.1 Safari/537.86.2\n Connection: keep-alive\n Host: euterpea.com\n Range: bytes=0-608383\n Accept: */*\n X-Playback-Session-Id: 438A1261-BE6C-4EC2-A399-A902A0B26CD5\n Accept-Encoding: identity\n Referer: http://euterpea.com/posts/examples/BabaORiley\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: baba.mp3\n    contextpath: /\n    URI: /baba.mp3\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+System.SendFile.Linux: resource vanished (Connection reset by peer)
+[05/Nov/2015:09:56:24 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:09:57:23 -0500] ["178.137.82.178"]: an exception escaped to toplevel:
+recv: resource vanished (Connection reset by peer)
+[05/Nov/2015:10:01:53 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:10:02:47 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:10:05:55 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:10:06:21 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:10:07:08 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:10:08:13 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:10:08:42 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:10:11:31 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]
+[05/Nov/2015:10:13:15 -0500] Server.httpServe: START, binding to [http://0.0.0.0:80/]

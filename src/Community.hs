@@ -2,7 +2,7 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 {-# LANGUAGE FlexibleInstances #-}
 
-module Community (handleCommunity, allCommentSplices) where
+module Community (handleCommunity) where
 
 import           Heist
 import qualified Heist.Compiled as C
@@ -58,7 +58,7 @@ retrieveComments = undefined
                         , Comment (Just 2) "user2" "This is the second comment"
                         ]-}
 
-splicesFromComment :: Splices (Comment -> C.Splice n)
+{-splicesFromComment :: Splices (Comment -> C.Splice n)
 splicesFromComment = mapS (C.pureSplice . C.textSplice) $ do
   "commentUsername"  ## username
   "commentMessage"  ## message
@@ -70,7 +70,7 @@ renderComments = C.manyWithSplices C.runChildren splicesFromComment
 allCommentSplices :: Monad n => Splices (C.Splice n)
 allCommentSplices =
   "allComments" ## (renderComments retrieveComments)
-
+-}
 
 -------------------------------------------------------------------------------
 -- | Run an IO action with a SQLite connection
@@ -78,6 +78,12 @@ allCommentSplices =
 withDb :: (S.Connection -> IO a) -> H a
 withDb action =
   withTop db . withSqlite $ \conn -> action conn
+
+showComments :: [Comment] -> Text
+showComments cs = 
+  pack $ "<ul>"++(concat $map f cs)++"</ul>"
+  where
+    f c = "<li>"++show c++"</li>"
 
 handleCommunity :: H ()
 handleCommunity =
@@ -87,7 +93,7 @@ handleCommunity =
   where
     allC = do
       comments <- withDb $ \conn -> listComments conn
-      --writeJSON comments
+      writeText $ showComments comments
       cRender "community"
  
     postComment user = do

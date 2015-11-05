@@ -78,7 +78,7 @@ initProcess :: Initializer App App App
 initProcess = do
     h <- nestSnaplet "" heist $ heistInit "templates"
     addRoutes routes
-    addConfig h (mempty & scCompiledSplices .~  allCommentSplices)
+    --addConfig h (mempty & scCompiledSplices .~  allCommentSplices)
 
     s <- nestSnaplet "sess" sess $
            initCookieSessionManager "site_key.txt" "sess" (Just 3600)
